@@ -28,10 +28,21 @@ namespace EmployeeWageComputation
                     int DailyEmpWage = wagePerHr * fullDayHr;
                     Console.WriteLine("Daily Employee wage is: " + DailyEmpWage);
 
-                    // Calculate wages for a month
-                    int workingDaysPerMonth = 20;
-                    int monthlyWage = DailyEmpWage * workingDaysPerMonth;
-                    Console.WriteLine("Monthly Employee wage is: " + monthlyWage);
+                    // Calculate wages till a condition of total working hours or days is reached for a month
+                    int totalWorkingHours = 100;
+                    int totalWorkingDays = 20;
+                    int accumulatedWage = 0;
+                    int workingHours = 0;
+                    int workingDays = 0;
+
+                    while (workingHours < totalWorkingHours && workingDays < totalWorkingDays)
+                    {
+                        accumulatedWage += DailyEmpWage;
+                        workingHours += fullDayHr;
+                        workingDays++;
+                    }
+
+                    Console.WriteLine("Accumulated Wage until the condition is met: " + accumulatedWage);
                     break;
             }
 
