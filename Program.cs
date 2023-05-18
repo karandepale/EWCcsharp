@@ -7,8 +7,8 @@ namespace EmployeeWageComputation
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee Wage Computation Program");
-            // IMPLEMENTTAION OF SWITCH CASE STATEMENT
-            Console.WriteLine("------------- Implementing using Swich case Statement ------------------");
+            // IMPLEMENTATION OF SWITCH CASE STATEMENT
+            Console.WriteLine("------------- Implementing using Switch case Statement ------------------");
 
             // Checking Employee is present or absent
             Random obj = new Random();
@@ -27,6 +27,11 @@ namespace EmployeeWageComputation
                     int fullDayHr = 8;
                     int DailyEmpWage = wagePerHr * fullDayHr;
                     Console.WriteLine("Daily Employee wage is: " + DailyEmpWage);
+
+                    // Calculate wages for a month
+                    int workingDaysPerMonth = 20;
+                    int monthlyWage = DailyEmpWage * workingDaysPerMonth;
+                    Console.WriteLine("Monthly Employee wage is: " + monthlyWage);
                     break;
             }
 
