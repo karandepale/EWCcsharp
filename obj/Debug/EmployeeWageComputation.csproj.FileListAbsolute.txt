@@ -1,0 +1,8 @@
+C:\Users\Karan Depale\source\repos\EmployeeWageComputation\EmployeeWageComputation\bin\Debug\EmployeeWageComputation.exe.config
+C:\Users\Karan Depale\source\repos\EmployeeWageComputation\EmployeeWageComputation\bin\Debug\EmployeeWageComputation.exe
+C:\Users\Karan Depale\source\repos\EmployeeWageComputation\EmployeeWageComputation\bin\Debug\EmployeeWageComputation.pdb
+C:\Users\Karan Depale\source\repos\EmployeeWageComputation\EmployeeWageComputation\obj\Debug\EmployeeWageComputation.csproj.AssemblyReference.cache
+C:\Users\Karan Depale\source\repos\EmployeeWageComputation\EmployeeWageComputation\obj\Debug\EmployeeWageComputation.csproj.SuggestedBindingRedirects.cache
+C:\Users\Karan Depale\source\repos\EmployeeWageComputation\EmployeeWageComputation\obj\Debug\EmployeeWageComputation.csproj.CoreCompileInputs.cache
+C:\Users\Karan Depale\source\repos\EmployeeWageComputation\EmployeeWageComputation\obj\Debug\EmployeeWageComputation.exe
+C:\Users\Karan Depale\source\repos\EmployeeWageComputation\EmployeeWageComputation\obj\Debug\EmployeeWageComputation.pdb
