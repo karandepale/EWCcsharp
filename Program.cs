@@ -25,6 +25,13 @@ namespace EmployeeWageComputation
                 Console.WriteLine("Employee is Present...");
             }
 
+            // Calculate Daily employee wage
+            int wagePerHr = 20;
+            int fullDayHr = 8;
+
+            int DailyEmpWage = wagePerHr * fullDayHr;
+            Console.WriteLine("Daily Employee wage is: " + DailyEmpWage);
+
         }
     }
 }
