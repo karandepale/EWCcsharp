@@ -12,6 +12,7 @@ namespace EmployeeWageComputation
         {
             Console.WriteLine("Welcome to Employee Wage Computation Program");
 
+            // Checking Employee is present or absent
             Random obj = new Random();
             int randomVal = obj.Next(0, 2);
             Console.WriteLine("Random value : " + randomVal);
@@ -25,6 +26,8 @@ namespace EmployeeWageComputation
                 Console.WriteLine("Employee is Present...");
             }
 
+
+
             // Calculate Daily employee wage
             int wagePerHr = 20;
             int fullDayHr = 8;
@@ -32,6 +35,13 @@ namespace EmployeeWageComputation
             int DailyEmpWage = wagePerHr * fullDayHr;
             Console.WriteLine("Daily Employee wage is: " + DailyEmpWage);
 
+
+
+
+            //calculate part time employee wage
+            int partTimeHr = 8;
+            int partTimeEmpWage = wagePerHr * partTimeHr;
+            Console.WriteLine("Part time Employee wage is: " + partTimeEmpWage);
         }
     }
 }
